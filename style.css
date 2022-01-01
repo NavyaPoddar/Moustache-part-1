@@ -1,0 +1,19 @@
+.btn-danger:hover{
+    background-color: aquamarine;
+    color: black;
+}
+
+canvas{
+    animation-name: colourfulShadow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colourfulShadow {
+    from{box-shadow: 5px 5px 50px rgb(167, 167, 236);}
+    to{box-shadow: 5px 5px 50px rgb(255, 46, 185);}
+}
+
+body{
+    background-size: cover;
+}
