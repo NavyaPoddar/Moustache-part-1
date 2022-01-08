@@ -2,7 +2,7 @@ nosex="";
 nosey="";
 
 function preload(){
-    stache=loadImage("Moustache.gif");
+    stache=loadImage("https://i.postimg.cc/XvZyvRsS/Moustache.gif");
 }
 
 function setup(){
@@ -16,6 +16,7 @@ function setup(){
 
 function draw(){
     image(video,0,0,700,500);
+    image(stache,nosex-10,nosey+10,100,50)
 }
 
 function modelloaded(){
